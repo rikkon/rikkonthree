@@ -1,0 +1,27 @@
+{
+  "name": "Rikkonthree",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikkon/rikkonthree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rikkon/rikkonthree/issues"
+  },
+  "homepage": "https://github.com/rikkon/rikkonthree#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.2.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
