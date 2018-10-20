@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package rikkontwo
+ * @package rikkonthree
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses rikkontwo_header_style()
+ * @uses rikkonthree_header_style()
  */
-function rikkontwo_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'rikkontwo_custom_header_args', array(
+function rikkonthree_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'rikkonthree_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'rikkontwo_header_style',
+		'wp-head-callback'       => 'rikkonthree_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'rikkontwo_custom_header_setup' );
+add_action( 'after_setup_theme', 'rikkonthree_custom_header_setup' );
 
-if ( ! function_exists( 'rikkontwo_header_style' ) ) :
+if ( ! function_exists( 'rikkonthree_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see rikkontwo_custom_header_setup().
+	 * @see rikkonthree_custom_header_setup().
 	 */
-	function rikkontwo_header_style() {
+	function rikkonthree_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

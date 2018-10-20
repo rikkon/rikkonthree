@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package rikkontwo
+ * @package rikkonthree
  */
 
 ?>
@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'rikkontwo' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'rikkonthree' ); ?></a>
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
@@ -37,15 +37,15 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
-			$rikkontwo_description = get_bloginfo( 'description', 'display' );
-			if ( $rikkontwo_description || is_customize_preview() ) :
+			$rikkonthree_description = get_bloginfo( 'description', 'display' );
+			if ( $rikkonthree_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $rikkontwo_description; /* WPCS: xss ok. */ ?></p>
+				<p class="site-description"><?php echo $rikkonthree_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rikkontwo' ); ?></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rikkonthree' ); ?></button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',

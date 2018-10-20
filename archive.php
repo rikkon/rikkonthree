@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package rikkontwo
+ * @package rikkonthree
  */
 
 get_header();
